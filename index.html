@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Shop - Your Online Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <!-- Header & Navigation -->
+    <header>
+        <nav>
+            <div class="logo">E-Shop</div>
+            <div class="search">
+                <input type="text" placeholder="Search products..."><button>Search</button>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="index.html#contact">Contacts</a></li>
+                <li class="cart-link"><a href="cart.html"><img src="images/cart.png" class="cart-img" alt="Cart"></a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+<!-- Home Section -->
+<section class="sc-home">
+        <h1>Welcome to E-Shop</h1>
+        <p>Your one-stop online store for all your shopping needs. Discover a wide range of products at unbeatable prices.</p>
+        <a href="products.html" class="button">Shop Now</a>
+</section>
+
+    
+<!-- Featured Products Section -->
+    <main>
+        <section class="products">
+            <h2>Featured Products</h2>
+        <div class="grid-container">
+            
+            <div class="product-container">
+                <a href="product.html">
+                <div class="product-link">
+                <img src="images/electronics/headphones01.png" alt="Headphones" class="product-image">
+                <h2>JBL Tune Flex, black - True-wireless earbuds Item - JBLTFLEXBLK</h2>
+                <div class="product-details">
+                <p class="price">$99.99</p>
+                <div class="rating">★★★★☆ (4.5)</div>
+                </div></div></a>
+                <a href="#" class="into-cart">Add to Cart</a>
+
+            </div>
+
+
+            <div class="product-container">
+                <a href="product.html">
+                <div class="product-link">
+                <img src="images/electronics/headphones02.png" alt="Headphones" class="product-image">
+                <h2>Philips TAH5205, black - Wireless headphones</h2>
+                <div class="product-details">
+                <p class="price">49.99€</p>
+                <div class="rating">★★★★☆ (4.5)</div>
+                </div></div></a>
+                <a href="#" class="into-cart">Add to Cart</a>
+
+            </div>
+
+            <div class="product-container">
+                <a href="product.html">
+                <div class="product-link">
+                <img src="images/electronics/phone1.png" alt="Phone" class="product-image">
+                <h2>Samsung Galaxy A36 5G, 6 GB, 128 GB, awesome white - Smartphone</h2>
+                <div class="product-details">
+                <p class="price">329.99€</p>
+                <div class="rating">★★★★☆ (4.5)</div>
+                </div></div></a>
+                <a href="#" class="into-cart">Add to Cart</a>
+
+            </div>
+        </div>
+            <!-- More products can be added here -->
+        </section>
+    </main>
+
+
+   <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form action="index.html#contact" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <p>@2026 E-Shop. All rights reserved.</p>
+    </footer>
+
+</html>
